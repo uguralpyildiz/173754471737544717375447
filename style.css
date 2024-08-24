@@ -48,6 +48,10 @@ nav{
     background: #b700ff10;
     border: 1px solid #b700ff50;
 }
+.effect-ive:nth-child(3){
+    background: #73ff0010;
+    border: 1px solid #73ff0050;
+}
 .effect-ive p{
     color: #353535;
     padding: 10px 0;
@@ -87,6 +91,12 @@ i {
     font-weight: 600;
     z-index: 1;
     transition: .3s opacity;
+}
+
+.nav-link.active{
+    background: #ff0055;
+    border: 1px solid #ff0055;
+    color: #fff;
 }
 
 .nav-link:hover .link-numbers {
@@ -217,11 +227,21 @@ i {
     top: 0;
     overflow: hidden;
 }
-
+#nth a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease all;
+}
 .link-anim-set-p {
+    
     position: relative;
     top: 0;
     transform-origin: bottom left;
+}
+.social i{
+    position: relative !important;
+    left: 5px !important;
 }
 
 .p1 {
@@ -856,6 +876,20 @@ width: auto;
     border-radius: 5px;
     object-fit: cover;
 }
+.effect-ives{
+    position: relative;
+}
+.flex-align-button{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+}
+
 
 
 
